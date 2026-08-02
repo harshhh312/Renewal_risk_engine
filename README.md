@@ -6,9 +6,9 @@ Built as a single Google Colab notebook, the project demonstrates data engineeri
 
 ---
 
-# ✨ Features
+# Features
 
-### 📊 Unified Data Processing
+### Unified Data Processing
 
 * Merges structured datasets including:
 
@@ -18,7 +18,7 @@ Built as a single Google Colab notebook, the project demonstrates data engineeri
   * NPS responses
 * Cleans and processes messy CSM notes using regular expressions and text preprocessing.
 
-### 📈 Hybrid Risk Scoring
+### Hybrid Risk Scoring
 
 Computes a weighted renewal risk score (0–100) using:
 
@@ -28,7 +28,7 @@ Computes a weighted renewal risk score (0–100) using:
 
 The final score is adjusted using insights extracted from Customer Success Manager (CSM) notes.
 
-### 🧠 Explainable AI
+### Explainable AI
 
 Instead of only producing a score, the system explains:
 
@@ -36,13 +36,13 @@ Instead of only producing a score, the system explains:
 * Which signals contributed most
 * What action the Customer Success team should take
 
-### 🚨 Hidden Risk Detection
+### Hidden Risk Detection
 
 Identifies accounts that appear healthy numerically but are running deprecated **SDK v3.x**, which will lose security support after **April 30, 2026**.
 
 This helps surface risks traditional dashboards may miss.
 
-### 📊 Executive Dashboard
+### Executive Dashboard
 
 The notebook generates:
 
@@ -53,7 +53,7 @@ The notebook generates:
 
 ---
 
-# ⚙️ Workflow
+#  Workflow
 
 | Step                       | Description                                                                               |
 | -------------------------- | ----------------------------------------------------------------------------------------- |
@@ -77,7 +77,7 @@ The notebook generates:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 renewal-risk-intelligence-engine/
@@ -96,7 +96,7 @@ renewal-risk-intelligence-engine/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Option 1: Google Colab (Recommended)
 
